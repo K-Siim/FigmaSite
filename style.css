@@ -36,7 +36,9 @@ nav {
     top: 50px; 
     left: 50%; 
     transform: translate(-80%, -50%);
+    padding-left: 1000px;
 }
+
 
 nav ul {
     list-style-type: none; 
@@ -267,7 +269,8 @@ h3 {
     font-weight: 500;
     letter-spacing: 0.2px;
     background: linear-gradient(180deg, 
-    rgba(255,255,255,1), rgba(255,255,255,0.6));
+        rgba(255,255,255,1), rgba(255,255,255,0.6));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -373,6 +376,141 @@ h3 {
         rgba(255,255,255,0.05) 33%, 
         rgba(0,0,0,0) 33.1%);
 }
+
+.containrr {
+    margin-top: 70px;
+}
+
+.Fingertips {
+    margin-top: 260px;  
+    font-family: 'Graphik', sans-serif;
+    color: #252B42;
+    font-size: 20px;
+    padding-left: 1000px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.middle-part {
+    padding-left: 1000px;
+    font-size: 42px;
+    font-family: 'Graphik', sans-serif;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+.subscribe-text {
+    padding-left: 1000px;
+    font-size: 20px;
+    font-family: 'Graphik', sans-serif;
+    color: #252B42;
+    margin-top: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.Available {
+    padding-left: 1000px;
+    font-size: 20px;
+    font-family: 'Graphik', sans-serif;
+    color: #374754;  
+    margin-top: -200px;
+    font-weight: 100;
+
+}
+
+.button-group {
+    padding-left: 1000px;
+    margin-top: 20px;
+    display: flex;
+    gap: 12px; 
+}
+
+.email-input {
+    padding: 15px 30px;
+    background-color: #F4F4F4;
+    border: 1px solid #E8E8E8;
+    border-radius: 30px;
+    color: #18171D;
+    font-family: 'Graphik', sans-serif;
+    font-size: 16px;
+    width: 200px; 
+    outline: none;  
+}
+
+.email-input::placeholder {
+    color: #18171D;
+}
+
+
+.email-button {
+    display: none;
+}
+
+.subscribe-button {
+    padding: 15px 30px;
+    background-color: #2091F9;
+    border: none;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-family: 'Graphik', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.twitter-item {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.twitter-logo {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    filter: brightness(0) invert(1);
+    margin-top: 10px;
+}
+
+.facebook-item {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.facebook-logo {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    filter: brightness(0) invert(1);
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.linkedin-item {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.linkedin-logo {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    margin-top: 10px;
+    filter: brightness(0) invert(1);
+}
+
+.left-image {
+    width: 650px;
+    height: auto;
+    margin-right: 200px;
+    margin-top: -300px;
+}
+
+
+
+
 
 
 
