@@ -102,6 +102,10 @@ nav ul li a:hover {
     text-align: center; 
 }
 
+.tff:hover {
+    background-color: #1a7bbf;
+}
+
 .features {
     font-family: 'Graphik', sans-serif; 
     text-align: center;
@@ -233,6 +237,10 @@ h3 {
     margin-left: 170px;
     margin-top: 30px;
     display: block;
+}
+
+.try-it:hover {
+    background-color: #1a7bbf;
 }
 
 .laptop {
@@ -458,6 +466,10 @@ h3 {
     cursor: pointer;
 }
 
+.subscribe-button:hover {
+    background-color: #1a7bbf;
+}
+
 .twitter-item {
     margin-left: 100px;
     display: flex;
@@ -557,6 +569,93 @@ h3 {
 .card img {
     width: 100px;
     height: auto; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 80px;
+    padding-left: 640px;
+}
+
+.try-it-free {
+    background-color: #2091F9;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 60px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    justify-content: center;
+}
+
+.try-it-free:hover {
+    background-color: #1a7bbf;
+}
+
+.light {
+    margin-top: 100px;
+}
+
+.IBM-Logo {
+    margin-left: 655px;
+    margin-top: 90px;
+}
+
+.light-text {
+text-align: center;
+color: #252B42;
+font-size: 42px;
+font-family: 'Graphik', sans-serif;
+font-weight: 350;
+}
+
+.light-text-p {
+text-align: center;
+margin-top: 55px;
+font-family: 'Graphik', sans-serif;
+color: #374754;
+font-size: 26px;
+font-weight: 100;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    margin-left: 600px;
+    
+}
+
+.client-info {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.ibm-logo {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.testimonials {
+    background-color: #2091F9;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 60px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 90px;
+    margin-left: 600px;
+}
+
+.testimonials:hover {
+    background-color: #1a7bbf;
 }
 
 
