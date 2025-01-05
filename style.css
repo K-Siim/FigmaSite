@@ -1041,3 +1041,10 @@ font-weight: 100;
 .social-iconn {
     margin-top: 10px;
 }
+
+.item-image {
+    display: block; 
+    margin: 0 auto 10px; 
+    max-width: 100%;
+    height: auto; 
+}

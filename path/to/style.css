@@ -1,0 +1,18 @@
+/* Add this CSS to position images over the <p> elements */
+div {
+    position: relative; /* Ensure the div is the positioning context */
+}
+
+div img {
+    position: absolute; /* Position images absolutely */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the image's own dimensions */
+    max-width: 100%; /* Prevent blurriness by ensuring images scale properly */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Ensure <p> elements have relative positioning if needed */
+div p {
+    position: relative; /* Optional: if you want to control stacking context */
+} 
