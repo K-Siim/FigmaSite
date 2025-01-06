@@ -1048,3 +1048,241 @@ font-weight: 100;
     max-width: 100%;
     height: auto; 
 }
+
+@media (max-width: 767px) {
+    
+    body {
+        margin: 0; 
+        overflow-x: hidden; 
+        font-family: 'Graphik', sans-serif; 
+        background-color: #f9f9f9; 
+    }
+
+    
+    header {
+        padding: 15px; 
+        background-color: #2091F9; 
+        color: white; 
+        text-align: center; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    }
+
+    nav {
+        flex-direction: column; 
+        align-items: center; 
+        width: 100%;
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 0; 
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        width: 100%; 
+    }
+
+    nav ul li {
+        margin: 10px 0; 
+        font-size: 18px; 
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s; 
+        display: block; 
+        width: 100%; 
+        padding: 12px;
+        border-radius: 5px;
+    }
+
+    nav ul li a:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #1DA1F2; 
+    }
+
+    
+    .background-image {
+        width: 100%; 
+        height: auto;
+        border-radius: 10px; 
+        margin-bottom: 20px;
+    }
+
+    .background-text, .background-mini-text {
+        font-size: 24px; 
+        text-align: center; 
+        padding: 0 20px; 
+        margin-bottom: 20px;
+        color: #252B42; 
+    }
+
+    
+    .tff, .try-it {
+        width: 90%; 
+        padding: 12px;
+        font-size: 16px;
+        background-color: #2091F9;
+        color: white; 
+        border: none; 
+        border-radius: 30px;
+        cursor: pointer; 
+        transition: background-color 0.3s;
+        margin: 15px 0; 
+    }
+
+    .tff:hover, .try-it:hover {
+        background-color: #1a7bbf; 
+    }
+
+    
+    .features {
+        font-size: 30px; 
+        text-align: center;
+        margin: 20px 0; 
+        color: #252B42; 
+    }
+
+    .paragraph {
+        font-size: 18px; 
+        padding: 0 10px; 
+        text-align: center;
+        color: #374754; 
+        margin-bottom: 20px;
+    }
+
+    
+    .container {
+        flex-direction: column;
+        align-items: center; 
+        padding: 0 10px; 
+        width: 100%; 
+    }
+
+    .text-item {
+        margin: 20px 0; 
+        width: 90%; 
+        text-align: center;
+        background-color: #ffffff; 
+        border-radius: 10px;
+        padding: 15px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s; 
+    }
+
+    .text-item:hover {
+        transform: translateY(-5px);
+    }
+
+    
+    .video-screen {
+        width: 100%; 
+        height: auto;
+        margin: 20px 0;
+        border-radius: 10px;
+    }
+
+    
+    .organize-section {
+        flex-direction: column; 
+        align-items: center; 
+        padding: 20px; 
+        width: 100%; 
+        background-color: #f0f4ff;
+        margin-bottom: 20px;
+    }
+
+    .laptop {
+        width: 90%; 
+        margin: 20px 0;
+    }
+
+    
+    .contact-box {
+        width: 90%; 
+        margin: 20px auto; 
+        padding: 20px; 
+        background-color: #ffffff;
+        border-radius: 10px; 
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    }
+
+    .Your-name, .email-input-box, .Your-Message {
+        width: 100%;
+        margin: 10px 0; 
+        padding: 10px;
+        border: 1px solid #e8e8e8;
+        border-radius: 30px; 
+        font-size: 16px; 
+    }
+
+    
+    .footer-container {
+        flex-direction: column;
+        align-items: center; 
+        padding: 20px; 
+        background-color: #252B42; 
+        color: white; 
+        width: 100%; 
+    }
+
+    .footer-column {
+        width: 100%;
+        margin-bottom: 20px; 
+        text-align: center; 
+    }
+
+    .footer-column ul {
+        padding: 0; 
+        list-style: none;
+    }
+
+    .footer-column li {
+        margin: 5px 0; 
+        font-size: 16px; 
+    }
+
+    .footer-socials a {
+        color: #FFFFFF; 
+        margin-right: 15px;
+        transition: color 0.3s;
+    }
+
+    .footer-socials a:hover {
+        color: #1DA1F2;
+    }
+}
+
+
+@media (min-width: 768px) {
+  
+    .container {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+        padding: 20px; 
+    }
+
+    .text-item {
+        width: calc(33% - 20px);
+        margin: 10px; 
+    }
+
+    .video-screen {
+        width: 100%; 
+        height: auto;
+    }
+
+    .laptop {
+        width: 100%; 
+        margin: 20px 0; 
+    }
+
+    .contact-box {
+        width: 400px; 
+        margin: 20px auto; 
+    }
+}
